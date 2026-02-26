@@ -2,7 +2,7 @@
 
 Implementação e comparação de desempenho de seis métodos de ordenação clássicos, desenvolvidos para a disciplina de Estrutura de Dados/Algoritmos. O código conta com um menu interativo que permite gerar arrays dinâmicos variando o **tamanho** (N) e o **estado inicial** (Aleatório, Crescente, Decrescente).
 
-## 📊 Resultados de Desempenho (Estado Aleatório)
+## Resultados de Desempenho (Estado Aleatório)
 
 Os testes abaixo comprovam na prática o custo computacional. Ao dobrar o tamanho do vetor (de 10k para 20k), nota-se que os algoritmos O(N²) quadruplicam seu tempo de execução, enquanto os logarítmicos se mantêm estáveis.
 
@@ -15,5 +15,5 @@ Os testes abaixo comprovam na prática o custo computacional. Ao dobrar o tamanh
 | **Selection Sort** | O(N²) | 50.00 ms | 197.00 ms |
 | **Bubble Sort** | O(N²) | 91.00 ms | 419.00 ms |
 
-## 💡 Conclusão
+## Conclusão
 A diferença de desempenho entre algoritmos quadráticos e logarítmicos é extrema em grandes volumes de dados. Enquanto o Bubble Sort escalou mal (batendo 419ms), o Quick Sort, Merge Sort e Shell Sort ordenaram 20.000 números de forma quase instantânea.
